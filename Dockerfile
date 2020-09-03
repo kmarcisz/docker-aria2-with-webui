@@ -1,6 +1,4 @@
-FROM alpine:edge
-
-LABEL maintainer "Dean Camera <http://www.fourwalledcubicle.com>"
+FROM python:3.8-alpine
 
 RUN mkdir -p /conf \
 	&& mkdir -p /conf-copy \
